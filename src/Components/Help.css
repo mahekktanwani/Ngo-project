@@ -1,0 +1,52 @@
+.help-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://helplocal.in/uploads/ngo/240435322_4776508312361277_7003867829429765616_n.jpg);
+}
+
+.help-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.help-card h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.help-card h3 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.help-card p {
+  color: #555;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* ✅ styled link as button */
+.donate-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #0056b3;
+}
