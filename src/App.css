@@ -1,0 +1,56 @@
+.navbar {
+  width: 100%;
+  background: #05ee19; /* Green */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between; /* left logo + right links */
+  align-items: center;
+  padding: 12px 40px;
+  box-sizing: border-box;
+}
+
+/* Left side (logo + name) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Right side (links) */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+
