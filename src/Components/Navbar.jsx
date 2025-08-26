@@ -1,4 +1,4 @@
-import React from "react";
+import { Link, Outlet } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,14 +11,25 @@ const Navbar = () => {
         />
         <h1 className="logo-text">furEverSafe</h1>
       </div>
+
       <div className="nav-right">
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Mission</a></li>
-          <li><a href="#contact">About us</a></li>
-          <li><a href="#donation">Donation</a></li>
+          <li>
+            <Link to="/Home">Home</Link>
+          </li>
+          <li>
+            <Link to="/Mission">Mission</Link>
+          </li>
+          <li>
+            <Link to="/About">About Us</Link>
+          </li>
+          <li>
+            <Link to="/Donation">Donation</Link>
+          </li>
         </ul>
       </div>
+
+      <Outlet />
     </nav>
   );
 };
