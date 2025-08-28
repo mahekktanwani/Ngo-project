@@ -1,0 +1,74 @@
+.form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 9px 8px 10px rgba(0,0,0,0.1);
+  margin-top: 120px;
+}
+p{
+  text-align: center;
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #046a10;
+}
+
+.fieldGroup {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nameInputs input {
+  flex: 1;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.radioLabel input {
+  margin-right: 0.5rem;
+}
+
+textarea, input[type="text"], input[type="tel"], input[type="number"] {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitButton {
+  width: 100%;
+  background-color: #4caf50;
+  border: none;
+  padding: 0.9rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
