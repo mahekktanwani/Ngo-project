@@ -2,7 +2,7 @@ import Navbar from './Components/Navbar.jsx'
 import Home from './Components/Home.jsx'
 import './App.css'
 import Donation from './Components/Donation.jsx'
-import Mission from './Components/Mission.jsx'
+import Join from './Components/Join.jsx'
 import About from './Components/About.jsx'
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 function App() {
@@ -10,10 +10,11 @@ function App() {
 <BrowserRouter>
   <Navbar/>
 <Routes>
+  <Route path='/' element={<Home/>}/>
   <Route path='/home' index element={<Home/>}/>
-  <Route path='/mission' element={<Mission/>}/>
+  <Route path='/join' element={<Join/>}/>
   <Route path='/about' element={<About/>}/>
-  <Route path='/donation' element={<Donation/>} />
+  <Route path='/donation' element={<Donation/>}/>
 </Routes>
 
 </BrowserRouter>
