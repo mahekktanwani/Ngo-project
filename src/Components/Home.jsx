@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./Swiper.css";  // <-- add this
+import Footer from "./Footer";
 
 const Home = () => {
   const slides = [
@@ -48,6 +49,7 @@ const Home = () => {
       </Swiper>
       <Problem/>
       <Help/>
+      <Footer/>
     </section>
   );
 };

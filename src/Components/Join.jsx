@@ -1,7 +1,8 @@
+import React from 'react'
 
 function Join() {
   return (
-    <div>Join us</div>
+    <div>Join</div>
   )
 }
 
