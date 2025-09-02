@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Problem from "./Problem";
 import Help from "./Help";
-
+import Mission from "./Mission";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -49,6 +49,7 @@ const Home = () => {
       </Swiper>
       <Problem/>
       <Help/>
+      <Mission/>
       <Footer/>
     </section>
   );
