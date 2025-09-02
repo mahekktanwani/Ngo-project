@@ -20,7 +20,7 @@ const Join = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Submitted Data:", formData);
-    alert("Thank you for joining! Well get in touch soon.");
+    alert("Thank you for joining! We'll get in touch soon.");
     // You can send this data to your backend here
   };
 
@@ -28,7 +28,6 @@ const Join = () => {
     <div className="join-container">
       <h1>Join Our NGO Family</h1>
       <p>Become a part of a compassionate community making a difference together.</p>
-
       <form onSubmit={handleSubmit} className="join-form">
         <label>
           Full Name:
@@ -40,7 +39,6 @@ const Join = () => {
             onChange={handleChange}
           />
         </label>
-
         <label>
           Email Address:
           <input
@@ -51,7 +49,6 @@ const Join = () => {
             onChange={handleChange}
           />
         </label>
-
         <label>
           Phone Number:
           <input
@@ -62,7 +59,6 @@ const Join = () => {
             onChange={handleChange}
           />
         </label>
-
         <label>
           Number of Family Members Joining:
           <input
@@ -74,7 +70,6 @@ const Join = () => {
             onChange={handleChange}
           />
         </label>
-
         <label>
           Emergency Message (if any):
           <textarea
@@ -84,11 +79,10 @@ const Join = () => {
             onChange={handleChange}
           ></textarea>
         </label>
-
         <button type="submit">Join Now</button>
       </form>
     </div>
-  );                         
+  );
 };
 
-export default Join; 
+export default Join;
