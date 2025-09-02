@@ -1,0 +1,68 @@
+.join-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f0fff0;
+  border: 2px solid #a3d9a5;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.35);
+  border: none;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.join-container h1 {
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.join-container p {
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.join-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.join-form input,
+.join-form textarea {
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #a3d9a5;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.join-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.join-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-form button:hover {
+  background-color: #388e3c;
+}
