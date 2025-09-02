@@ -20,7 +20,7 @@ const Join = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Submitted Data:", formData);
-    alert("Thank you for joining! We’ll get in touch soon.");
+    alert("Thank you for joining! Well get in touch soon.");
     // You can send this data to your backend here
   };
 
@@ -88,7 +88,7 @@ const Join = () => {
         <button type="submit">Join Now</button>
       </form>
     </div>
-  );
+  );                         
 };
 
-export default Join;
+export default Join; 
